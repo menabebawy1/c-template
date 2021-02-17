@@ -37,3 +37,14 @@ int main()
     Time t5(25, 61, 99); // values out of range
     t5.print();          // 25:61:99
 }
+
+
+    //className object; //non-template
+    //className object(a,b); //non-template and paramterized
+    //className <ItemType> object; //template
+    //className <ItemType> object(a,b); //template and paramterized
+
+    //BSTdict dictionary1; //non-template
+    //BSTdict dictionary1(a,b); //non-template and paramterized
+    //BSTdict<string> dictionary1; //template
+    //BSTdict<string> dictionary1(a,b); //template and paramterized
